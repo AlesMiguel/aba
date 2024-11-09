@@ -1,0 +1,62 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: system-ui;
+
+    font-size: 25px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    color: #FFF;
+    background-color: #1C1C1C;
+}
+
+.menu {
+    width: 100px;
+    height: 100vh;
+
+    padding: 10px;
+
+    overflow: hidden;
+    background-color: royalblue;
+    transition: width .8s;
+}
+
+ul {
+    list-style: none;
+
+    gap: 20px;
+    display: flex;
+
+    flex-direction: column;
+}
+
+li {
+    gap: 60px;
+    width: 100px;
+
+    display: flex;
+    cursor: pointer;
+}
+
+i {
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.profile {
+    gap: 45px;
+    display: flex;
+    cursor: pointer;
+}
+
+.menu:hover {
+    width: 350px;
+}
